@@ -112,7 +112,7 @@
   <!-- Hero view (answers RQ1): largest, top of the hierarchy -->
   <section class="card" aria-labelledby="h-scatter">
     <h2 id="h-scatter">Smokers pay far more than non-smokers at every age</h2>
-    <p class="cap">Each dot is one person. Drag to select a region of the chart.</p>
+    <p class="cap"><b>RQ1</b> &middot; Do smokers pay more, and does the gap grow with age? Each dot is one person; drag to select a region.</p>
     <div id="scatter"></div>
   </section>
 
@@ -120,19 +120,19 @@
   <div class="breakdown">
     <section class="card" aria-labelledby="h-bmi">
       <h2 id="h-bmi">Obese people pay the most</h2>
-      <p class="cap">Average annual charges by BMI category (WHO bands, in order)</p>
+      <p class="cap"><b>RQ2</b> &middot; Does BMI raise charges, more so for smokers? Average annual charges by BMI category (WHO bands, in order).</p>
       <div id="bmi"></div>
     </section>
     <section class="card" aria-labelledby="h-region">
       <h2 id="h-region">Regions differ by under $2.4k</h2>
-      <p class="cap">Average annual charges by US region (sorted by overall average)</p>
+      <p class="cap"><b>RQ3</b> &middot; Do regions differ, and does smoking explain it? Average annual charges by US region (sorted by overall average).</p>
       <div id="region"></div>
     </section>
   </div>
 
   <footer>
     Data: Kaggle "Medical Cost Personal Datasets" (B. Lantz, <em>Machine Learning with R</em>), 1,338 insured people.
-    Prepared by prep_data.py. Charges are annual medical charges billed by the insurer.
+    Data prep (prep_data.py): no missing values; added BMI category (WHO bands) and age group; labels tidied. Charges are annual medical charges billed by the insurer.
   </footer>
 </main>
 <div id="tip" role="tooltip"></div>
