@@ -8,6 +8,8 @@ Drag on the scatter or click a bar to filter every view. Click empty space, pres
 
 ![Linked filtering: a brush on the scatter plus the Obese bar](screenshots/02_linked_filtering.png)
 
+**Demo video:** [demo.mp4](demo.mp4) (screen recording of the live dashboard).
+
 ## Run locally
 Open `index.html` in a browser, or serve the folder: `python3 -m http.server 8000`.
 
